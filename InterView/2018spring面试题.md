@@ -25,9 +25,9 @@
 
 方式二：
 
-* DispatcherServlet 是 springmvc 中的前端控制器(front controller),负责接收 request 并将 request 转发给对应的处理组件.
-* HanlerMapping 是 springmvc 中完成 url 到 controller 映射的组件.DispatcherServlet 接收 request, 然后从 HandlerMapping 查找处理 request 的 controller.
-* Cntroller 处理 request,并返回 ModelAndView 对象,Controller 是 springmvc 中负责处理 request 的组件(类似于 struts2 中的 Action),ModelAndView 是封装结果视图的组件.
+* `DispatcherServlet`是 springmvc 中的前端控制器(front controller),负责接收` request `并将 request 转发给对应的处理组件.
+* `HanlerMapping `是 springmvc 中完成 url 到 controller 映射的组件.DispatcherServlet 接收 request, 然后从 HandlerMapping 查找处理 request 的 controller.
+* Cntroller 处理 request,并返回` ModelAndView `对象,Controller 是 springmvc 中负责处理 request 的组件(类似于 struts2 中的 Action),ModelAndView 是封装结果视图的组件.
 * 视图解析器解析 ModelAndView 对象并返回对应的视图给客户端.
 
 一期第三阶段 待补充。。。原理源码部分一定要看。
